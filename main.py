@@ -12,3 +12,5 @@ quiz = QuizBrain(question_bank)
 while quiz.still_has_questions():
     answer = quiz.next_question()
     quiz.check_answer(answer)
+
+quiz.final_statement()
